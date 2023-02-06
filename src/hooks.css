@@ -1,0 +1,133 @@
+*{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family: "CustomFont";
+    src:url("../fonts/RolexLight.woff2");
+} */
+.page {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100%;
+}
+.form-container{
+    background-color: black;
+    width: 33em;
+    height: 39em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.alt-login{
+    width: 110%;
+    height: 5em;
+    display: flex;
+    justify-content: space-around;
+}
+.alt-login div{
+    width: 45%;
+    height: 90%;
+    border-radius: 0;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.facebook{background-image: url("https://avatars2.githubusercontent.com/u/53986236?s=400&v=4");}
+
+input{
+    border: none;
+    background-color:  rgb(229, 226, 226);
+    height: 4em;
+    width: 80%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+}
+input:focus {
+outline-color: rgb(32,177,255);
+}
+.login-btn{
+    width: 40%;
+    height: 5em;
+    background-color: rgb(255,20,147);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    border-radius: 0.15em;
+    cursor: pointer;
+    font-size: 70;
+    font-weight: bold;
+}
+.login-btn:hover{transform: scale(1.25);}
+
+.write{
+    position: relative;
+    bottom: -0em;
+    color: white;
+    
+}
+.text1{
+    position: relative;
+    bottom: -1em;
+    color: white;
+}
+.text2{
+    position: relative;
+    bottom: 1em;
+    color: rgb(255, 0, 149);
+    font-size: 10;
+}
+.hide{
+   position: absolute;
+   transform: scale(0);
+}
+
+.login-popup{
+    position: absolute;
+    height: 30em;
+    width:30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    transform: scale(1);
+    transform: 1.5s;
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: -20px;
+    padding: 0px;
+}
+.form-field1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin : -65px;
+    padding: 0px;
+}
+.register-form{
+    position: relative;
+    bottom: 2em;
+    color: white;
+
+}
