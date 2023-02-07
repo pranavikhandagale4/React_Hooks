@@ -39,6 +39,10 @@ function App() {
     {/* <div className="alt-login">
     <div className="facebook"></div>
 </div> */}
+
+{/* <div>
+      <img src="https://th.bing.com/th/id/OIP.ggmZ0RTsVNDvEtFP4mlGawAAAA?pid=ImgDet&w=180&h=180&c=7&dpr=1.2" alt="My Image"/>
+    </div> */}
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '10vh', fontFamily: 'Monospacef', fontSize: 32, fontWeight: 'bold', }}>
     <p className="text1">React Hooks Form</p></div>
     <p className="text2">Performant,flexible and extensible forms with easy-to-use validation.</p>
